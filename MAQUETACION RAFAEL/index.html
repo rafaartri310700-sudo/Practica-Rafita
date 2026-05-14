@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación con divs</title>
+        <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos_maquetacion (2).css">
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-chubby/css/uicons-solid-chubby.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- COLOCA TU LOGO AQUÍ -->
+                <a href="index.html">
+                    <img src="img/logo.png"  alt="Coloca tu logo aquí">
+                </a>
+            </div>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fi fi-rr-home"></i>Inicio</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#"><i class="fi fi-sr-settings"></i></i>Servicios ▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#"><i class="fi fi-rs-computer"></i>Diseño Digital</a></li>
+                            <li><a href="#"><i class="fi fi-rs-pencil"></i>Páginas Web</a></li>
+                            <li><a href="#"><i class="fi fi-sc-tools"></i>Mantenimiento y redes de cómputo</a></li>
+                        </ul>
+                    </li>
+                   
+
+                    <li><a href="#"><i class="fi fi-sr-workflow-setting-alt"></i>Proyectos</a></li>
+                    <li><a href="#"><i class="fi fi-sr-headset"></i>Contacto</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- Banner Principal -->
+<div class="swiper mainBanner">
+    <div class="swiper-wrapper">
+        
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/nassir milos.png" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>El Bailarin mas Famoso de la Actualidad contra el mas Famoso de la Historia</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/diddy.jpg" alt="Oferta 2">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Diddy vs Epstein pelearán por los niños</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/messi.png" alt="Oferta 2">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Messi y Ronaldo en una pelea de UFC</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+ <!-- Slide 4 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/quemada.png" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Aumenta taza de Acoso en la Escuela</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+ <!-- Slide 5 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/chocho.png" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Aumenta el uso de suplementos en adolescentes</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+         <!-- Slide 6 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/Iguana.png" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Caza de dinosauroios aumenta en Paraiso</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Controles -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+    <main class="container" style="padding: 100px 0;">
+        <h1 style="font-size: 3rem; margin-bottom: 20px;">Maquetación con divs</h1>
+        <p style="font-size: 1.2rem; max-width: 600px;">Esta plantilla es responsiva, tiene un menú con animaciones suaves y un pie de página profesional dividido en 3 secciones.</p>
+        <section class="seccion-info">
+            
+            <!-- FILA DE 2 CUADROS (Noticias Destacadas) -->
+            <h2 class="titulo-seccion">Noticias Recientes</h2>
+            <div class="contenedor-dos">
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder"><img src="img/abelito.jfif" alt=""></div>
+                    <h3>¡SIGUE VOLANDO!</h3>
+                    <p>En su mas reciente combate el Abelito fue golpeado brutalmente y salió propulsado, aún se desconoce su paradero.</p>
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder"><img src="img/milos.jfif" alt=""></div>
+                    <h3>Vuelve el bailarin original</h3>
+                    <p>Se viene Nuevo show de Ricardo Milos</p>
+                    
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+            </div>
+
+            <!-- FILA DE 3 CUADROS (Eventos o Info Rápida) -->
+            <h2 class="titulo-seccion">Próximos Eventos</h2>
+            <div class="contenedor-tres">
+    <!-- Cuadro con Imagen -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/dinho.jfif" alt="">
+        </div>
+        <h4>Se acerca el Mundial 2026</h4>
+        <p>15 de Mayo - 10:00 AM</p>
+    </div>
+
+    <!-- Cuadro con Video -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <video controls>
+                <source src="img/video.mp4" type="video/mp4"
+             
+            </video>
+        </div>
+        <h4>Webinar Online</h4>
+        <p>20 de Mayo - 04:00 PM</p>
+    </div>
+
+    <!-- Cuadro con Info Rápida (Solo texto si quieres) -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/ronaldo.jfif" alt="Evento">
+        </div>
+        <h4>Reunión Mensual</h4>
+        <p>30 de Mayo - 09:00 AM</p>
+    </div>
+</div>
+</section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p>📍 Av. de los Emprendedores 404</p>
+                    <p>📞 +52 993 123 4567</p>
+                    <p>✉️ hola@tupagina.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Ubicación</h4>
+                    <p>Villahermosa, Tabasco</p>
+                    <p>México, CP 86000</p>
+                    <a href="#">Ver en Google Maps</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Aviso de Privacidad</a></li>
+                        <li><a href="#">Soporte al Cliente</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Nombre del alumno. Grado y grupo. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="banner.js"></script>
+</body>
+</html>
